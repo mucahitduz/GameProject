@@ -14,7 +14,7 @@ namespace GameProject
             customer1.FirstName = "Mücahit";
             customer1.LastName = "Düz";
             customer1.DateOfBirth = new DateTime(1997, 6, 16);
-            customer1.NationalityId = "37891748568";
+            customer1.NationalityId = "11111111111";
 
             CustomerManager customerManager = new CustomerManager(new MernisServiceAdapter());
             customerManager.SignUp(customer1);
